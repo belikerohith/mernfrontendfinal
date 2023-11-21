@@ -64,7 +64,7 @@ const Login = () => {
 
             }).catch(err => console.log(err))*/
             //Axios.get('http://localhost:3000/custdetails')
-             Axios.get('https://mernvercfinal.vercel.app/home/custdetails')
+             Axios.get('https://mernbackend-gg55.onrender.com/custdetails')
       .then((res) => {
         const cust = res.data.find((d) => d.CustomerEmail === userDetails.email);
 

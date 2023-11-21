@@ -22,7 +22,7 @@ const MenuPage = () => {
   var abcd = 0;
   useEffect(() => {
     //Axios.get('http://localhost:3000/resdetails')
-     Axios.get('https://mernvercfinal.vercel.app/home/resdetails')
+     Axios.get('https://mernbackend-gg55.onrender.com/resdetails')
       .then((res) => {
         setRestaurants(res.data);
       })
@@ -149,7 +149,7 @@ const handleOpenRazorpay = (data) => {
             handler: function (response) {
                 console.log(response, "34")
                  //Axios.post('http://localhost:3000/verify', { response: response })
-                 Axios.post('https://mernvercfinal.vercel.app/home/verify', { response: response })
+                 Axios.post('https://mernbackend-gg55.onrender.com/verify', { response: response })
                     .then(res => {
                         console.log(res, "37")
                         
