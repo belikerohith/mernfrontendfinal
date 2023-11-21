@@ -44,7 +44,7 @@ const MenuDetails = () => {
             console.log(userData.hashedOwnerPassword)
 
             console.log("clicking submit : ", userData)
-             Axios.post('https://backendss-giwi.onrender.com/upload', userData)
+             Axios.post('https://mernbackend-gg55.onrender.com/upload', userData)
                  //Axios.post('http://localhost:3000/upload', userData)
                 .then((res) => console.log(res))
                 .catch(err => console.log(err))

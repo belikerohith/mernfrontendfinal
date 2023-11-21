@@ -75,7 +75,7 @@ const SignUp = () => {
 
         console.log(newUserData)
 
-        Axios.post('https://backendss-giwi.onrender.com/newcustomer', newUserData)
+        Axios.post('https://mernbackend-gg55.onrender.com/newcustomer', newUserData)
            // Axios.post('http://localhost:3000/newcustomer', newUserData)
             .then((res) => {
                 console.log("client", res)

@@ -24,7 +24,7 @@ const Dashboard = () => {
   }, [menuItems, loggedInRestaurant]);
 
   const updateMenuItemsInDatabase = () => {
-    Axios.put('https://backendss-giwi.onrender.com/update', {
+    Axios.put('https://mernbackend-gg55.onrender.com/update', {
     // Axios.put('http://localhost:3000/update', {
       OwnerEmail: loggedInRestaurant.OwnerEmail,
       menuItems,
